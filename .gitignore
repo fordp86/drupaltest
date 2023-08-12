@@ -5,6 +5,9 @@
 # follows official upstream conventions:
 # https://www.drupal.org/docs/develop/using-composer
 
+# Ingnore DDEV folder
+/.ddev
+
 # Ignore configuration files that may contain sensitive information
 /web/sites/*/*settings*.php
 /web/sites/*/*services*.yml
